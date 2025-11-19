@@ -2,9 +2,9 @@ import { defineConfig } from 'wxt';
 
 export default defineConfig({
   manifest: {
-    name: 'Universal Browser MCP',
+    name: 'Browser MCP',
     description: 'Connects your browser to MCP servers for AI automation',
-    version: '0.1.0',
+    version: '0.1.1',
     permissions: [
       'activeTab',
       'scripting',

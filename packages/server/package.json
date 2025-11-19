@@ -1,6 +1,6 @@
 {
   "name": "@gl1tchblade/browsermcp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "bin": {
     "browsermcp": "dist/index.js"
   },
