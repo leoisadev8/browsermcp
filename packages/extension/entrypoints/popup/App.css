@@ -54,8 +54,31 @@ h1 {
   margin-top: 16px;
 }
 
-code {
-  background: #eee;
-  padding: 2px 4px;
-  border-radius: 4px;
+.connect-btn {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.connect-btn.connect {
+  background-color: #2563eb;
+  color: white;
+}
+
+.connect-btn.connect:hover {
+  background-color: #1d4ed8;
+}
+
+.connect-btn.disconnect {
+  background-color: #dc2626;
+  color: white;
+}
+
+.connect-btn.disconnect:hover {
+  background-color: #b91c1c;
 }

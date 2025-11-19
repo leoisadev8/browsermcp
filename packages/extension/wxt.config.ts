@@ -4,7 +4,7 @@ export default defineConfig({
   manifest: {
     name: 'Browser MCP',
     description: 'Connects your browser to MCP servers for AI automation',
-    version: '0.1.2',
+    version: '0.1.3',
     permissions: [
       'activeTab',
       'scripting',
