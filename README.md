@@ -2,7 +2,7 @@
 
 Connect your AI agent (Claude, Cursor) to your **real** web browser.
 
-[**📥 Install Extension**](https://github.com/leoisadev8/browsermcp/releases/latest/download/extension.zip) | [**📦 NPM Package**](https://www.npmjs.com/package/@gl1tchblade/browsermcp)
+[**📥 Install Extension**](https://github.com/leoisadev8/browsermcp/releases/latest) | [**📦 NPM Package**](https://www.npmjs.com/package/@gl1tchblade/browsermcp)
 
 ![Browser MCP Demo](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbzZ4eXh4eXh4eXh4eXh4eXh4eXh4eXh4eXh4eXh4eXh4eCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/example.gif)
 
@@ -16,7 +16,8 @@ Most AI browser tools start a headless browser you can't see or control. **Brows
 ## Quick Setup
 
 ### 1. Install the Chrome Extension
-1.  Download the latest [extension.zip](https://github.com/leoisadev8/browsermcp/releases/latest/download/extension.zip).
+1.  Go to the [Latest Release](https://github.com/leoisadev8/browsermcp/releases/latest).
+2.  Download `extension.zip` from the Assets section.
 2.  Unzip it.
 3.  Go to `chrome://extensions`.
 4.  Enable **Developer Mode** (top right).
