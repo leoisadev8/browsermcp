@@ -1,0 +1,33 @@
+name: Release Extension
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: oven-sh/setup-bun@v1
+      
+      - name: Install Dependencies
+        run: bun install
+
+      - name: Build Extension
+        run: bun run build
+        
+      - name: Zip Extension
+        run: |
+          cd packages/extension/.output/chrome-mv3
+          zip -r ../../../extension.zip ./*
+          
+      - name: Create Release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: packages/extension/extension.zip
+          generate_release_notes: true

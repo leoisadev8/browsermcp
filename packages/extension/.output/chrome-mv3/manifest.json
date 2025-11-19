@@ -1,0 +1,1 @@
+{"manifest_version":3,"name":"Universal Browser MCP","description":"Connects your browser to MCP servers for AI automation","version":"0.1.0","permissions":["activeTab","scripting","tabs","debugger","storage"],"host_permissions":["<all_urls>"],"action":{"default_title":"Browser MCP","default_popup":"popup.html"},"background":{"service_worker":"background.js"}}

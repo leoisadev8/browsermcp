@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Page for Browser MCP</title>
+</head>
+<body>
+    <h1>Welcome to the Test Page</h1>
+    <p>This is a test page to verify Browser MCP is working correctly.</p>
+    
+    <h2>Sample Content</h2>
+    <ul>
+        <li>Item 1: First test item</li>
+        <li>Item 2: Second test item</li>
+        <li>Item 3: Third test item</li>
+    </ul>
+    
+    <h2>Form Example</h2>
+    <form>
+        <label for="test-input">Test Input:</label>
+        <input type="text" id="test-input" placeholder="Type something here...">
+        <button type="submit">Submit</button>
+    </form>
+    
+    <h2>Links Section</h2>
+    <a href="https://example.com">Visit Example.com</a>
+    <br><br>
+    <a href="https://github.com">Visit GitHub</a>
+    
+    <div id="dynamic-content">
+        <p>This is some static content that should be captured.</p>
+    </div>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const dynamicDiv = document.getElementById('dynamic-content');
+            const newP = document.createElement('p');
+            newP.textContent = 'This content was added dynamically with JavaScript.';
+            dynamicDiv.appendChild(newP);
+        });
+    </script>
+</body>
+</html>

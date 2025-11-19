@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "browser-mcp": {
+      "command": "bun",
+      "args": ["run", "/Users/leo/projects/browsermcp/packages/server/src/index.ts"]
+    }
+  }
+}
