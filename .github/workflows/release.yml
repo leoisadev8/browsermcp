@@ -31,3 +31,13 @@ jobs:
         with:
           files: packages/extension/extension.zip
           generate_release_notes: true
+          body: |
+            ## 🚀 Browser MCP ${{ github.ref_name }}
+            
+            **Installation:**
+            1. Download `extension.zip` below.
+            2. Unzip it.
+            3. Load the **unzipped folder** in `chrome://extensions` (Developer Mode -> Load Unpacked).
+            
+            **NPM Package:**
+            `npx -y @gl1tchblade/browsermcp`
